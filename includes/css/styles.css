@@ -1,0 +1,100 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+.navbar-brand{
+    padding:13px 15px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+/* --------------------------------------
+   Navbar searchInput and .navbar-brand was modified in  lecture 7
+   -------------------------------------- */
+
+#myCarousel{
+    margin-top:60px;
+}
+#myCarousel .item{
+    height:600px;
+}
+
+#slide1{
+    background:url('../../images/slide1.jpg') top center no-repeat;
+}
+#slide2{
+    background:url('../../images/slide2.jpg') top center no-repeat;
+}
+#slide3{
+    background:url('../../images/slide3.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   /*.backdrop {
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background: whitesmoke;
+     opacity: 0.5;
+   }
+   .caption {
+     position: relative;
+     top: 87.5%;
+     left: 10%;
+     font-size: 25px;
+     font-family: 'Open Sans';
+     width: 1000px;
+     height: 25px;
+   }
+   blockquote {
+     position: relative;
+     z-index: 1000;
+     font-size:25px;
+     text-shadow: 0px 1px 1px  black;
+   }
+   .quotation
+   {
+     float:left;
+     margin-right:10px;
+     width:10px;
+     font-family: 'Fjalla One', sans-serif;
+
+   }
+
+   #q2{
+     float:right;
+   }
+
+    */
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+
+/* Portrait & landscape phone */
+
+/* Landscape phone to portrait tablet */
+
+/* Large desktop */
