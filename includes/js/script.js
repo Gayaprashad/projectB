@@ -12,8 +12,8 @@ Notes:	 Hand coded for Udemy.com
 
 $(function(){
     $('.carousel').carousel({
-  interval: 3000
-});
+        interval: 3000
+    });
 
 
         $('#alertMe').click(function(e){
@@ -27,5 +27,7 @@ $(function(){
         $('a.pop').click(funtion(e){
             e.preventDeault();
         });
+
+
 
 });
