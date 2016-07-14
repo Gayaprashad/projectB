@@ -45,6 +45,11 @@ Notes:	 Hand coded for Udemy.com
     .border{
      border:2px solid white
     }
+
+#hero{
+    margin: 0px -15px;
+    padding:0;
+}
 #myCarousel{
     margin-top:60px;
     margin-left:11px;
@@ -81,6 +86,7 @@ Notes:	 Hand coded for Udemy.com
     margin-left:15px;
     width:97%;
 }
+
 #video h3{
     position:absolute;
     top:80%;
