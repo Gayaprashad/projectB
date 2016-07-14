@@ -1,5 +1,6 @@
 /*
 
+NOT USED IN THE PROJECT JUST A SAMPLE 
 My Custom CSS
 =============
 
@@ -92,10 +93,6 @@ Notes:	 Hand coded for Udemy.com
 .textshadow{
     font-family: 'Fjalla One', sans-serif;
     text-shadow: 1px 1px 1px  black;
-}
-.textshadow1{
-    font-family: 'Fjalla One', sans-serif;
-    text-shadow: 1px 1px 1px  black;
     color:white;
     position:absolute;;
     top:30%;
@@ -114,14 +111,19 @@ Notes:	 Hand coded for Udemy.com
         width:100%;
     }
 
+    #kate {
+        background: black;
+        -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+        transition: width 2s;
+    }
 
     #kate:hover {
         opacity:0.5;
     }
-    .textshadow1{
+    .textshadow{
         display:none;
     }
-    #kate:hover .textshadow1{
+    #kate:hover .textshadow{
         display:block;
     }
 /* --------------------------------------
@@ -188,7 +190,7 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media(max-width:480px){
-    #myCarousel .item{ height:300px;}
+    #myCarousel .item{ height:500px;}
     #slide1{
         background:url('../../images/slide1_small.jpg') center no-repeat;
     }
@@ -198,33 +200,6 @@ Notes:	 Hand coded for Udemy.com
     #slide3{
         background:url('../../images/slide3_small.jpg') center no-repeat;
     }
-    #video{
-        background: url('../../images/w2_small.jpg') center no-repeat;
-        height:300px;
-        margin-left:15px;
-        margin-bottom:10px;
-        width:86%;
-    }
-    #gaya{
-        height:100px;
-        width:250px;
-    }
-    #video h3{
-        margin-top:10px;
-        right:60%;
-    }
-    .videobtn{
-        left:70%
-    }
-    #kate{
-        background: url('../../images/combined-xs.jpg') top center no-repeat;
-        height:100px;
-        width:290px;
-    }
-    .textshadow1{
-        font-size: 10px;
-    }
-
 }
 /* Landscape phone to portrait tablet */
 @media(min-width:481px) and (max-width:768px){
@@ -257,9 +232,6 @@ Notes:	 Hand coded for Udemy.com
     #kate{
         background: url('../../images/combined-small.jpg') top center no-repeat;
         height:200px;
-    }
-    .textshadow1{
-        font-size: 20px;
     }
 
 
@@ -314,9 +286,6 @@ Notes:	 Hand coded for Udemy.com
         background:url('../../images/combined.jpg') top center no-repeat;
         height:420px;
     }
-    .textshadow1{
-        font-size: 40px;
-    }
 
 
 }
@@ -340,13 +309,11 @@ Notes:	 Hand coded for Udemy.com
         margin-left:15px;
         width:97%;
     }
-    #gaya{
-        height:610px;
-    }
     #kate{
         background:url('../../images/combined.jpg') top center no-repeat;
         height:420px;
     }
+
 
 }
 
