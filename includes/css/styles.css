@@ -17,7 +17,12 @@ Notes:	 Hand coded for Udemy.com
     .navbar-brand{
         padding:13px 15px;
     }
-
+    #navtop{
+        height:60px;
+    }
+    .active a{
+        height:60px
+    }
     #features{
         text-align:center;
     }
@@ -33,23 +38,26 @@ Notes:	 Hand coded for Udemy.com
    Navbar searchInput and .navbar-brand was modified in  lecture 7
    -------------------------------------- */
 
+    .border{
+     border:2px solid white
+    }
 #myCarousel{
     margin-top:60px;
 }
 #myCarousel .item{
     height:600px;
 }
-#myCarousel .item h3{
-    color:black;
+#myCarousel .item h4{
+    color:white;
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: 1px 1px 1px  white;
-    font-size: 20px;
+    text-shadow: 3px 3px 3px  black;
+    font-size: 22px;
 }
 #myCarousel .item p{
-    color:black;
+    color:white;
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: 1px 1px 1px  white;
-    font-size: 20px;
+    text-shadow: 2px 2px 2px  black;
+    font-size: 17px;
 }
 
 #slide1{
@@ -141,10 +149,10 @@ Notes:	 Hand coded for Udemy.com
 @media(min-width:481px) and (max-width:768px){
     #myCarousel .item{ height:310px;}
     #slide1{
-        background:url('../../images/slide1_small.jpg') top center no-repeat;
+        background:url('../../images/slide1_small.jpg') center no-repeat;
     }
     #slide2{
-        background:url('../../images/slide2_small.jpg') top center no-repeat;
+        background:url('../../images/slide2_small.jpg') center no-repeat;
     }
     #slide3{
         background:url('../../images/slide3_small.jpg') top center no-repeat;
@@ -156,10 +164,10 @@ Notes:	 Hand coded for Udemy.com
 @media(min-width:769px) and (max-width:1500px){
     #myCarousel .item{ height:600px;}
     #slide1{
-        background:url('../../images/slide1.jpg') top center no-repeat;
+        background:url('../../images/slide1.jpg') center no-repeat;
     }
     #slide2{
-        background:url('../../images/slide2.jpg') top center no-repeat;
+        background:url('../../images/slide2.jpg') center no-repeat;
     }
     #slide3{
         background:url('../../images/slide3.jpg') top center no-repeat;
