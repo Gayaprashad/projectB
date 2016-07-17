@@ -130,62 +130,26 @@ Notes:	 Hand coded for Udemy.com
     #kate:hover .textshadow1{
         display:block;
     }
+    i{
+        position:absolute;
+        right:25%;
+    }
+    .i2{
+            margin-top:5px;
+    }
+    .i3{
+            margin-top:5px;
+    }
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-   /*.backdrop {
-     height: 100%;
-     width: 100%;
-     position: relative;
-     background: whitesmoke;
-     opacity: 0.5;
-   }
-   .caption {
-     position: relative;
-     top: 87.5%;
-     left: 10%;
-     font-size: 25px;
-     font-family: 'Open Sans';
-     width: 1000px;
-     height: 25px;
-   }
-   blockquote {
-     position: relative;
-     z-index: 1000;
-     font-size:25px;
-     text-shadow: 0px 1px 1px  black;
-   }
-   .quotation
-   {
-     float:left;
-     margin-right:10px;
-     width:10px;
-     font-family: 'Fjalla One', sans-serif;
 
-   }
-
-   #q2{
-     float:right;
-   }
-
-    */
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
-   #transition1:hover {
-       opacity: 1.0;
-       filter: alpha(opacity=100); /* For IE8 and earlier */
-   }
-   #transition2:hover {
-       opacity: 1.0;
-       filter: alpha(opacity=100); /* For IE8 and earlier */
-   }
-   #transition3:hover {
-       opacity: 1.0;
-       filter: alpha(opacity=100); /* For IE8 and earlier */
-   }
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
